@@ -5,4 +5,5 @@ export default cleanEnv(import.meta.env, {
   VITE_APP_NAME: str(),
   VITE_ETH_NETWORK: str(),
   VITE_ETH_RPC: str(),
+  VITE_IPFS_UPLOADER: str(),
 })
