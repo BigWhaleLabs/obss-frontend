@@ -6,4 +6,5 @@ export default cleanEnv(import.meta.env, {
   VITE_ETH_NETWORK: str(),
   VITE_ETH_RPC: str(),
   VITE_IPFS_UPLOADER: str(),
+  VITE_OBSS_STORAGE: str(),
 })

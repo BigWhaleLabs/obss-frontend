@@ -16,6 +16,7 @@ Frontend to connect to OBSS.
 | `VITE_ETH_NETWORK`   | Eth network for your providers and contract |
 | `VITE_ETH_RPC`       | Ethereum node RPC URI                       |
 | `VITE_IPFS_UPLOADER` | IPFS uploader URI                           |
+| `VITE_OBSS_STORAGE`  | OBSS storage contract address               |
 
 Also, please, consider looking at `.env.sample`.
 
