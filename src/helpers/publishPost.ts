@@ -12,7 +12,7 @@ export default async function publishPost(text: string) {
   console.log('Posted to IPFS', cid)
   const cidStruct = cidToStruct(cid)
   const provider = WalletStore.provider
-  const contract = obssContract.connect(provider)
+  const contract = obssContract.connect(provider.getSigner())
   const tx = await contract.addProfilePost(cidStruct)
   const receipt = await tx.wait()
   return { cid, receipt }
