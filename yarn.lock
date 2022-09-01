@@ -2862,6 +2862,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@big-whale-labs/obss-storage-contract@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "@big-whale-labs/obss-storage-contract@npm:0.0.4"
+  checksum: 19081ce17ac98500159607cb05075dfccbb0222b2f3e0b0a25df7d310a303af6c71520eab0ce05d4c02b2caf58af5e40ff74da5e301a1e30ac8b240d87907cd0
+  languageName: node
+  linkType: hard
+
 "@big-whale-labs/seal-cred-ledger-contract@npm:^0.2.6":
   version: 0.2.6
   resolution: "@big-whale-labs/seal-cred-ledger-contract@npm:0.2.6"
@@ -6625,31 +6632,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001280":
-  version: 1.0.30001280
-  resolution: "caniuse-lite@npm:1.0.30001280"
-  checksum: 5794b22f4254927f095e83c65e89ddfc63065c7ed16e6544555a3252ee3d16e48f8a7846713dc64869c52e1abe9a2a93161804b40c2097d1abc9aaa0155a0b65
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001272, caniuse-lite@npm:^1.0.30001286, caniuse-lite@npm:^1.0.30001287":
-  version: 1.0.30001291
-  resolution: "caniuse-lite@npm:1.0.30001291"
-  checksum: ae24be79227036564ccd2ab8a0be8793a2e650941607a9f3e68a967db08d90cf17ded0382c2ce87063051b7200e618ec83bdb12f423ed60665922dc4d8eb8f78
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001317":
-  version: 1.0.30001332
-  resolution: "caniuse-lite@npm:1.0.30001332"
-  checksum: e54182ea42ab3d2ff1440f9a6480292f7ab23c00c188df7ad65586312e4da567e8bedd5cb5fb8f0ff4193dc027a54e17e0b3c0b6db5d5a3fb61c7726ff9c45b3
-  languageName: node
-  linkType: hard
-
-"caniuse-lite@npm:^1.0.30001370, caniuse-lite@npm:^1.0.30001373":
-  version: 1.0.30001382
-  resolution: "caniuse-lite@npm:1.0.30001382"
-  checksum: 186ec65230bf315c4dbfb2785be811653869aaa7713c5e83dfa9ca9396be371f5e02a0dfe56b9c7069ad9ecff811d316b507d8a7c700d429e423d8808dee5771
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001272, caniuse-lite@npm:^1.0.30001280, caniuse-lite@npm:^1.0.30001286, caniuse-lite@npm:^1.0.30001287, caniuse-lite@npm:^1.0.30001317, caniuse-lite@npm:^1.0.30001370, caniuse-lite@npm:^1.0.30001373":
+  version: 1.0.30001387
+  resolution: "caniuse-lite@npm:1.0.30001387"
+  checksum: 57b894aa54da582f867018cdbc3c8956f894962988233cd4ace8710ab0e3405dd928926e35f46e5a9b4068e5cea7e36c6e14f930c9c40972885f329df7e8119e
   languageName: node
   linkType: hard
 
@@ -13460,6 +13446,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "obss-frontend@workspace:."
   dependencies:
+    "@big-whale-labs/obss-storage-contract": ^0.0.4
     "@big-whale-labs/stores": ^0.1.16
     "@coinbase/wallet-sdk": ^3.5.2
     "@esbuild-plugins/node-globals-polyfill": ^0.1.1
