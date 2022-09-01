@@ -9,6 +9,7 @@ export default {
   '0x61': 'bsn', // BSN
   '0x64': 'xDai', // xDai
   '0x89': 'polygon', // Polygon
+  '0x13881': 'mumbai', // Polygon Mumbai Testnet
   '0xa4b1': 'arbitrum', // Arbitrum
   '0xa86a': 'avalanche', // Avalanche
   '0x80': 'heco-mainnet', // Huobi Mainnet

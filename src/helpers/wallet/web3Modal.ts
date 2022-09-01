@@ -17,7 +17,7 @@ export default new Web3Modal({
       package: WalletConnect,
       options: {
         rpc: {
-          5: rpc,
+          80001: rpc,
         },
       },
     },
@@ -26,7 +26,7 @@ export default new Web3Modal({
       options: {
         appName,
         rpc: {
-          5: rpc,
+          80001: rpc,
         },
         darkMode: true,
       },
