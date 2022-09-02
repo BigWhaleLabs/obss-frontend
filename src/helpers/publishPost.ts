@@ -1,3 +1,4 @@
+import { OBSSStorage } from '@big-whale-labs/obss-storage-contract'
 import Post from 'models/Post'
 import WalletStore from 'stores/WalletStore'
 import cidToStruct from 'helpers/cidToStruct'
@@ -10,7 +11,7 @@ export default async function publishPost(text: string) {
   }
   const { cid } = await uploadToIPFS(post)
   console.log('Posted to IPFS', cid)
-  const cidStruct = cidToStruct(cid)
+  const cidStruct: OBSSStorage.CIDStruct = cidToStruct(cid)
   const provider = WalletStore.provider
   const contract = obssContract.connect(provider.getSigner())
   const tx = await contract.addProfilePost(cidStruct)

@@ -1,6 +1,7 @@
 import { BodyText, HeaderText } from 'components/Text'
 import { useSnapshot } from 'valtio'
 import PostForm from 'components/PostForm'
+import ProfilePosts from 'components/ProfilePosts'
 import Wallet from 'components/Wallet'
 import WalletStore from 'stores/WalletStore'
 import classnames, {
@@ -26,6 +27,7 @@ export default function () {
       <BodyText>No censorship. Fully decentralized. Nice.</BodyText>
       <Wallet />
       {account && <PostForm />}
+      {account && <ProfilePosts account={account} />}
     </div>
   )
 }
